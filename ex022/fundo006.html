@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fundo 006</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            /* shorthand - background na sequencia certa
+            color > image > position > [size] attachment
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center center fixed;
+            background-size: cover;
+           
         }
         main{
             background-color: white;
@@ -46,7 +54,7 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ipsum, tempore ratione dignissimos voluptatum fugiat neque perferendis. Aspernatur consequuntur natus voluptate magni, itaque sapiente expedita excepturi error, unde veritatis fugit!
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam voluptates eaque delectus, corporis, veritatis facere natus quod repellendus magnam accusantium quis omnis aut rerum voluptatem ab officia sunt at.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ipsum, tempore ratione dignissimos voluptatum fugiat neque perferendis. Aspernatur consequuntur natus voluptate magni, itaque sapiente expedita excepturi error, unde veritatis fugit!
-            
+
         </p>
     </main>
 </body>
