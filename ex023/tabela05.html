@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table
+         {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption
+        {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome
+        {
+            background-color: chartreuse;
+        }
+        col.csexo
+        {
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>exercicios de tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo" span="3">
+       
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idadae</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>M</td>
+            <td>35</td>
+            <td>professor</td>
+        </tr>
+        <tr>
+            <td>Tahis</td>
+            <td>F</td>
+            <td>28</td>
+            <td>MKT</td>
+        </tr>
+        <tr>
+            <td>Max</td>
+            <td>M</td>
+            <td>40</td>
+            <td>cervejeiro</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>claudia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Helena</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Maju</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>DUDA</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+
+    </table>  
+</body>
+</html>
