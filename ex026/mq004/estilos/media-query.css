@@ -1,0 +1,60 @@
+@charset "UTF 8";
+
+/** todaas as outras CSS**/
+
+/* 
+320px - 480px: Dispositivos móveis (telefones) em orientação retrato.
+481px - 768px: Tablets em orientação retrato, alguns laptops menores.
+769px - 1024px: Tablets em orientação paisagem, laptops menores.
+1025px e acima: Desktops, laptops maiores. 
+
+telas pequenas = ate 600px
+celulares = 600 ate 768px
+tablets = 768 ate 992px
+desktop = 992 ate 1200px
+grandes telas 1200 ate estourar
+*/
+
+@media print {
+
+}
+
+@media screen and (min-width: 768px) {
+    
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#smart {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#smart {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+
+}
+
+@media screen and (min-width:1200px){
+    
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#smart {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
